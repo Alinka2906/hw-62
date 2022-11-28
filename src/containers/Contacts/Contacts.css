@@ -1,0 +1,28 @@
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.cont-text {
+    width: 45%;
+    margin: auto;
+    font-size: 24px;
+}
+
+.box {
+    position: relative;
+    overflow:hidden;
+    width:700px;
+    height:700px;
+}
+
+.box img {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:700px;
+    height:700px;
+    object-fit:cover;
+}

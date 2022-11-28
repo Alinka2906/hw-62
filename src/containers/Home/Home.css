@@ -1,0 +1,21 @@
+.block {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.title {
+    margin-top: 50px;
+}
+
+.text {
+    margin-bottom: 30px;
+}
+
+.info {
+    width: 50%;
+    font-weight: bold;
+    margin-top: 50px;
+}

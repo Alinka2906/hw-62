@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background: #ccc;
+}
+
+.logo {
+    text-align: left;
+    width: 25%;
+}
+
+img {
+    width: 97%;
+    height: 90%;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+.header {
+    width: 70%;
+    font-size: 14px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    margin-top: 40px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ff4500;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,68 @@
+.my {
+    font-size: 12px;
+}
+
+.myBlock {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    text-align: left;
+}
+
+.myText {
+    width: 45%;
+}
+
+.picture {
+    width: 45%;
+}
+
+.picture {
+    position: relative;
+    overflow:hidden;
+    width:200px;
+    height:300px;
+}
+
+.picture img {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:300px;
+    height:300px;
+    object-fit:cover;
+}
+
+.our {
+    margin: 30px 0;
+}
+
+h4 {
+    color: #ff4500;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.myInfo {
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-pic {
+    width: 35%;
+}
+
+
+
+
+
+
+
+
